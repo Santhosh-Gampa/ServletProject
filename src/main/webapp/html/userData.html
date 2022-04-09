@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Info</title>
+</head>
+<body>
+	<form action="UserServlet" method="get">
+		
+		<table>
+			<tbody>
+				<tr><td> User Name: <nbsp></nbsp> <input type="text" name="uName"></td> </tr>
+				<tr><td>User Age:	<nbsp></nbsp><input type="text" name="uAge"></td></tr>
+				<tr> <td>   <input type="submit" value="Login" id="button-1"/> </td> </tr>
+			</tbody>
+		</table>
+	</form>
+	
+	<br>
+	<!-- <a href="HeaderInfo">HeaderInformation</a> -->
+		<form id="form-1" action="ErrorHandler">
+			<input type="submit" value="GetException" id="button-2"/>
+		</form>
+		<br><br>
+	
+		<form id="form-2" action="HelloForm">
+			 First Name: <nbsp></nbsp> <input type="text" name="first_name">
+			Last Name:	<nbsp></nbsp><input type="text" name="last_name">
+				<input type="submit" value="Submit" id="button-3"/>
+		</form>
+		
+		<br><br>
+		<form action="SessionTrack" method="get">
+			<input type="submit" value="Submit" id="button-4"/>		
+		</form>
+		
+		<br><br>
+		<h3>File Upload:</h3>
+      Select a file to upload: <br />
+      <form action = "FileUpload" method = "post" enctype = "multipart/form-data">
+         <input type = "file" name = "file" size = "50"  />
+         <br />
+         <input type = "submit" value = "Upload File" />
+      </form>
+	<br><br>
+	<a href="PageRedirect">Link to Google website</a>
+		
+</body>
+</html>
