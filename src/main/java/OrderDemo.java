@@ -1,7 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
-
-import com.org.Orders;
 
 public class OrderDemo {
 
